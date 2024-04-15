@@ -1,3 +1,1 @@
-nombre:sebastian
-apellidos:aristizabal lopez
-usuario github: Sebas0496
+sebastian/aristizabal lopez/Sebas0496
