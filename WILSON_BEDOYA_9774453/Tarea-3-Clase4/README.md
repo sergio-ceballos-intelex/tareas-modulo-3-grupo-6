@@ -1,0 +1,6 @@
+# TAREA 3 CLASE 4
+## Diagrama de flujo área de un triángulo
+![DIAGRAMA DE FLUJO CALCULO DE AREAS](WILSON_BEDOYA_9774453\Tarea-3-Clase4\AREA_TRAINGULO.jpg)
+
+## Diagrama de flujo proceso laboral
+![DIAGRAMA DE FLUJO PROCESO LABORAL](WILSON_BEDOYA_9774453\Tarea-3-Clase4\KAMBCODE_PROCESOLABORAL.jpg)
