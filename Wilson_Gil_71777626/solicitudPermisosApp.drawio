@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" modified="2024-04-17T15:18:10.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="A2VkUcPLeifLuQ0FFdio" version="24.2.5" type="device">
+  <diagram name="Página-1" id="tWOLMJ6CPamkP-Lu0gZb">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1dAWluMqVLUk9Aw7bPCL-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-1" value="Inicio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="332" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="1dAWluMqVLUk9Aw7bPCL-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1dAWluMqVLUk9Aw7bPCL-4" target="1dAWluMqVLUk9Aw7bPCL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-4" value="Recibi solicitud areas de aprobaciones" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="322" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1dAWluMqVLUk9Aw7bPCL-6" target="1dAWluMqVLUk9Aw7bPCL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-10" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1dAWluMqVLUk9Aw7bPCL-9">
+          <mxGeometry x="-0.0667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1dAWluMqVLUk9Aw7bPCL-6" target="1dAWluMqVLUk9Aw7bPCL-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-13" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1dAWluMqVLUk9Aw7bPCL-12">
+          <mxGeometry x="-0.3667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-6" value="Aprueba" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="342" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1dAWluMqVLUk9Aw7bPCL-8" target="1dAWluMqVLUk9Aw7bPCL-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-8" value="Envia correo a usuario con la NO aprobación de los permisos" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="482" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1dAWluMqVLUk9Aw7bPCL-11" target="1dAWluMqVLUk9Aw7bPCL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-11" value="Enviar correo con aprobación al area de TI" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="162" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1dAWluMqVLUk9Aw7bPCL-14" target="1dAWluMqVLUk9Aw7bPCL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-14" value="Area de ti, asigna los permisos" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="162" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1dAWluMqVLUk9Aw7bPCL-16" target="1dAWluMqVLUk9Aw7bPCL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-16" value="Envia correo a usuario con asignacion de permisos" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="362" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-18" value="FIN" style="ellipse;whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="382" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1dAWluMqVLUk9Aw7bPCL-23" value="Usuario registra solicitud permisos en app" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="262" y="170" width="340" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
