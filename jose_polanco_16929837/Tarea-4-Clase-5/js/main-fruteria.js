@@ -21,7 +21,7 @@ const buyProduct = (name, weightPro, units) => {
         console.log("El descuento es: 10%");
     }else if(kiloWeight > 5 && kiloWeight <= 10){
         console.log("El descuento es: 15%");
-    }else if(kiloWeight > 10){
+    }else(kiloWeight > 10){
         console.log("El descuento es: 20%");
     }
 }

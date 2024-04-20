@@ -1,7 +1,7 @@
 const messages = document.getElementById("messages");
 const numberUser = Number(prompt("Escribe un numero"));
 
-if(numberUser < 1){
+if(numberUser <= 1){
     const numberUser = Number(prompt("Escribe un numero mayor a 1"));
 }
 
