@@ -6,4 +6,4 @@
 
 ## Tarea2
 
-!['Proceso Actualizacion Surtido'](./Ejercicio_2_Tarea_4.jpg)
+!['Proceso Actualizacion Surtido Maquinas Vending'](./Ejercicio_2_Tarea_4.jpg)
