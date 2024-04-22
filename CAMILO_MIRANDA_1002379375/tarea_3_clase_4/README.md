@@ -6,4 +6,4 @@
 
 ## Diagrama de flujo proceso laboral
 
-![DIAGRAMA DE FLUJO PROCESO LABORAL](./Diagrama%20de%20flujo.jpg)
+![DIAGRAMA DE FLUJO PROCESO LABORAL](Diagrama%20de%20flujo%20proceso%20laboral.jpg)
