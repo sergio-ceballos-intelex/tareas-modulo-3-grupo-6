@@ -20,11 +20,3 @@ console.log ("el numero 7 es :" , numeroprimo (7));
 console.log ("el numero 8 es :" , numeroprimo (8));
 console.log ("el numero 9 es :" , numeroprimo (9));
 console.log ("el numero 10 es :" , numeroprimo (10));
-
-
-
-
-
-
-
-
