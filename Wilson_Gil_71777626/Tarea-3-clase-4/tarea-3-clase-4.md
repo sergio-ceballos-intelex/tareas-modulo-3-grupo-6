@@ -7,4 +7,4 @@
 
 ## Tarea2
 
-!['Proceso permisos'](solicitudPermisosApp.drawio.png)
+!['Proceso permisos'](solicitudPermisosApp.png)
