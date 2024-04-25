@@ -3,8 +3,8 @@ let libros = [
     { titulo: "Don Quijote de la Mancha", autor: "Miguel de Cervantes" },
     { titulo: "Cien años de soledad", autor: "Gabriel García Márquez" },
   ];
-  libros.forEach(function(element,index){
-    if(libros[index].titulo.includes(`El`)){
-        console.log(libros[index].titulo);
+  libros.forEach(function(libro){
+    if(libro.titulo.includes(`El`)){
+        console.log(libros.titulo);
     } 
 });
