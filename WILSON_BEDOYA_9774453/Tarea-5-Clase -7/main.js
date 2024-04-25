@@ -52,13 +52,7 @@ let libros = [
   let frutas2 = ["Fresa", "Uva", "Piña"];
   let totalFrutas=[];
   /*Primera opcion usando bucle forEach */
-  frutas1.forEach((fruta)=>{
-    totalFrutas.push(fruta);
-  })
   frutas2.forEach((fruta)=>{
-    totalFrutas.push(fruta);
+    frutas1.push(fruta);
   })
-  console.log(totalFrutas);
-/*Segunda opcion usando el método concat() */
-  let totalFrutas2 = frutas1.concat(frutas2);
-  console.log(totalFrutas2);
+  console.log(frutas1);
