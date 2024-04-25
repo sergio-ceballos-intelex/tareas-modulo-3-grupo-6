@@ -15,13 +15,13 @@ const buyProduct = (name, weightPro, units) => {
     kiloWeight = ((units*weightPro)*kilo);
     console.log("Entro3", kiloWeight);
 
-    if(kiloWeight <= 2){
+    if (kiloWeight <= 2) {
         console.log("El descuento es: 0");
-    }else if(kiloWeight > 2 && kiloWeight <= 5){
+    } else if (kiloWeight > 2 && kiloWeight <= 5) {
         console.log("El descuento es: 10%");
-    }else if(kiloWeight > 5 && kiloWeight <= 10){
+    } else if (kiloWeight > 5 && kiloWeight <= 10) {
         console.log("El descuento es: 15%");
-    }else(kiloWeight > 10){
+    } else {
         console.log("El descuento es: 20%");
     }
 }
