@@ -5,6 +5,6 @@ let libros = [
   ];
 libros.forEach(function(libro){
     if(libro.titulo.includes(`El`)){
-        console.log(libros.titulo);
+        console.log(libro.titulo);
     } 
 });
