@@ -1,0 +1,12 @@
+const estudiantes = [
+      { nombre: "Camilo", edad: 33, promedio: 10 },
+      { nombre: "Juan", edad: 30, promedio: 6 },
+      { nombre: "Andres", edad: 29, promedio: 8.7 },
+ ];
+ //Calcula la suma de edades de todos los estudiantes
+let suma=0;
+estudiantes.forEach(estudiante=>suma=suma+estudiante.edad);
+//Calcula el promedio de edade de todos los estudiantes
+let promedio=suma/estudiantes.length;
+console.log("Suma: "+suma);
+console.log("Promedio "+promedio.toFixed(2));
