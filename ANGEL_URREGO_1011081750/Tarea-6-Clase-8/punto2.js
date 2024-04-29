@@ -12,7 +12,7 @@ console.log(segundoEstudiante.nombre);
 // EJERCICIO#2 Actualiza la informacion del primer estudiante
 
 estudiantes.forEach(estudiante => {
-    if (estudiante.nombre === "Camilo") {
+    if (estudiante == estudiantes[0]) {
         estudiante.edad = 25;
     } 
 });
