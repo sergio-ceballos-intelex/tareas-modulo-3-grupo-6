@@ -6,10 +6,7 @@ const estudiantes = [
 
 //Imprime en la consola el nombre del segundo estudiante.
 
-for (let i=0; i<estudiantes.length; i++) {
-    console.log(estudiantes[1].nombre);
-    break
-}
+console.log(estudiantes[1].nombre);
 
 //Actualiza la edad del primer estudiante a 25 años. Imprime en la consola la 
 // información completa del primer estudiante después de laactualización.
