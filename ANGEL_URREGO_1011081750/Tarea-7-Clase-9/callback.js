@@ -52,17 +52,15 @@ const alemania = (callback) => {
     }, 4000);
 };
 
-const corea = (callback) => {
+const corea = () => {
     setTimeout(() => {
         console.log('Corea');
-        callback();
     }, 8000);
 };
 
 bogota();
 madrid(() =>{
     alemania (() =>{
-        corea(() =>{
-        });
+        corea(); 
     });
 });
