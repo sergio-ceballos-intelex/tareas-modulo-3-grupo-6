@@ -45,10 +45,15 @@ function getUsers() {
 }
 
 function getPerson(user) {
-  return new Promise((resolve) => {
+  return new Promise((resolve, reject) => {
     setTimeout(() => {
       const person = persons.find(person => person.personId === user.personId);
-      resolve(person);
+      if (person)
+      {
+        resolve(person);
+      }else{
+        reject("Persona no existe");
+      }
     }, 5000);
   });
 }
@@ -56,10 +61,13 @@ function getPerson(user) {
 getUsers()
   .then(usersData => {
     const personPromises = usersData.map(user => getPerson(user));
-    return Promise.all(personPromises);
+    return Promise.allSettled(personPromises);
   })
   .then(personsLoggued => {
-    console.log('Personas logueadas:', personsLoggued);
+    const imprimir=personsLoggued
+    .filter(info=>info.status!=="rejected")
+    .map(info=>info.value);
+    console.log('Personas logueadas:', imprimir);
   })
   .catch(error => {
     console.error('Error:', error);
