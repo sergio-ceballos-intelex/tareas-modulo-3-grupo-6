@@ -1,9 +1,8 @@
 async function getPosts() {
     try {
-        const respuestaServidor = await fetch('https://jsonplaceholder.typicode.com/posts');
+        const respuestaServidor = await fetch('https://jsonplaceholder.typicode.com/posts?_start=0&_limit=5');
         const posts = await respuestaServidor.json();
-        const fivePosts=posts.filter((elemento, index) => index < 5);
-        for (const post of fivePosts) {
+          for (const post of posts) {
             const postId = post.id;
             const commentsResponse = await fetch(`https://jsonplaceholder.typicode.com/posts/${postId}/comments`);
             const comentarios = await commentsResponse.json();
