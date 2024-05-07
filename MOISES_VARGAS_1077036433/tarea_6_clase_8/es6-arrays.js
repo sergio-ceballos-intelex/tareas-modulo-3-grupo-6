@@ -115,8 +115,12 @@ const estudiantes2 = [
 ];
 
 //Imprime en la consola el nombre y la edad del estudiante con el promedio más alto.
-console.log(estudiantes2[6].nombre);
-console.log(estudiantes2[6].edad);
+const mejorPromedio = estudiantes2.filter(estudiante => estudiante.promedio >= 95);
+console.log(mejorPromedio);
+/* profe al imprimir este console.log muetra el arreglo de safia, pero si intento hacer 
+algo como console.log(mejorPromedio.edad) me impreme indefinido */
+console.log("_______________________");
+
 
 //Filtra los estudiantes mayores de 20 años en un nuevo array llamado estudiantesMayores.
 const estudiantesMayores = estudiantes2.filter(estudiante => estudiante.edad > 20);
